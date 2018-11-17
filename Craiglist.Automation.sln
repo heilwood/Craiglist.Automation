@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craiglist.Automation", "Cra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Automation", "Common.Automation\Common.Automation.csproj", "{AEE91172-2CEF-4D15-9B7A-146A19971DBF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{E6C117AD-3E8A-410C-98BE-0B50DFD55286}"
-	ProjectSection(SolutionItems) = preProject
-		..\Instruction\Getting Started.pdf = ..\Instruction\Getting Started.pdf
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
