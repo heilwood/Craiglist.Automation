@@ -28,7 +28,10 @@ namespace Common.Automation.ElementActions.Elements
             {
                 throw new NoChildElementWithTextException($"Cannot find value in dropdown \"{dropdown}\" with text: {valueText}");
             }
-            
+            catch (Exception)
+            {
+                throw new NoSuchElementException($"Cannot find dropdown with locator: {dropdown}");
+            }
         }
     }
 }
